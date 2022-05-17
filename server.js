@@ -91,8 +91,12 @@ app.get('/api/animals/:id', (req, res) => {
 
 app.post('/api/animals', (req, res) => {
     req.body.id = animals.length.toString()
-    const animal = createNewAnimal(req.body, animals)
-    res.json(animal)
+    if (!validateAnimal(req.body)){
+        res.status(400).send("The data your're trying to enter is improperly formatted!")
+    } else {
+        const animal = createNewAnimal(req.body, animals)
+        res.json(animal)
+    }
 })
 
 app.listen(PORT, () => {
