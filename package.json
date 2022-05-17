@@ -1,0 +1,22 @@
+{
+  "name": "zoo-keepr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khyan22/zoo-keepr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khyan22/zoo-keepr/issues"
+  },
+  "homepage": "https://github.com/khyan22/zoo-keepr#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
