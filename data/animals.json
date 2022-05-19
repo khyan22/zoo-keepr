@@ -119,12 +119,18 @@
       "id": "11"
     },
     {
-      "id": "12"
-    },
-    {
       "name": "Terry",
       "species": "lemur",
       "diet": "",
+      "personalityTraits": [
+        "loving, goofy"
+      ],
+      "id": "12"
+    },
+    {
+      "name": "Mari",
+      "species": "llama",
+      "diet": "herbivore",
       "personalityTraits": [
         "loving, goofy"
       ],
