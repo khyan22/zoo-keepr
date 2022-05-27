@@ -135,6 +135,16 @@
         "loving, goofy"
       ],
       "id": "13"
+    },
+    {
+      "name": "Gerard",
+      "species": "lion",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry",
+        "goofy"
+      ],
+      "id": "14"
     }
   ]
 }
